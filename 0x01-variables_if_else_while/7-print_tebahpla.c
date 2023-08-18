@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - program that writes letter in reverse
-*return: always 0
+*Return: always 0 (indicating successfull execution)
 */
 int main(void)
 {
