@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main - program that writes letter in reverse
-* return: always 0
+*main - program that writes letter in reverse
+*return: always 0
 */
 int main(void)
 {
