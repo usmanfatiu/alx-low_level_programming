@@ -1,17 +1,17 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * rot13 - encoder rot13
- * @s: pointer to string params
- * Return: *s
- */
+* rot13 - encoder rot13
+* @s: pointer to string params
+* Return: *s
+*/
 char *rot13(char *s)
 {
 int i;
 int j;
 char datal[] =
 "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-char datarot[] = 
+char datarot[] =
 "NOPQRSTUVWXYZABCDEFCHIJKLMnopqrstuvwxyzabcdefghijklm";
 for (i = 0; s[i] != '\0'; i++)
 {
