@@ -9,8 +9,10 @@ char *rot13(char *s)
 {
 int i;
 int j;
-char datal[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-char datarot[] = "NOPQRSTUVWXYZABCDEFCHIJKLMnopqrstuvwxyzabcdefghijklm";
+char datal[] =
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char datarot[] = 
+"NOPQRSTUVWXYZABCDEFCHIJKLMnopqrstuvwxyzabcdefghijklm";
 for (i = 0; s[i] != '\0'; i++)
 {
 for (j = 0; j < 52; j++)
